@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5DC47F221088491008AE9A4 /* MSGraphPOCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DC47E821088491008AE9A4 /* MSGraphPOCSDK.framework */; };
+		E5DC47F721088491008AE9A4 /* MSGraphPOCSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC47F621088491008AE9A4 /* MSGraphPOCSDKTests.m */; };
+		E5DC47F921088491008AE9A4 /* MSGraphPOCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC47EB21088491008AE9A4 /* MSGraphPOCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5DC47F321088491008AE9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5DC47DF21088491008AE9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5DC47E721088491008AE9A4;
+			remoteInfo = MSGraphPOCSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5DC47E821088491008AE9A4 /* MSGraphPOCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSGraphPOCSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DC47EB21088491008AE9A4 /* MSGraphPOCSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphPOCSDK.h; sourceTree = "<group>"; };
+		E5DC47EC21088491008AE9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DC47F121088491008AE9A4 /* MSGraphPOCSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSGraphPOCSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DC47F621088491008AE9A4 /* MSGraphPOCSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphPOCSDKTests.m; sourceTree = "<group>"; };
+		E5DC47F821088491008AE9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5DC47E421088491008AE9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DC47EE21088491008AE9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DC47F221088491008AE9A4 /* MSGraphPOCSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5DC47DE21088491008AE9A4 = {
+			isa = PBXGroup;
+			children = (
+				E5DC47EA21088491008AE9A4 /* MSGraphPOCSDK */,
+				E5DC47F521088491008AE9A4 /* MSGraphPOCSDKTests */,
+				E5DC47E921088491008AE9A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5DC47E921088491008AE9A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC47E821088491008AE9A4 /* MSGraphPOCSDK.framework */,
+				E5DC47F121088491008AE9A4 /* MSGraphPOCSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5DC47EA21088491008AE9A4 /* MSGraphPOCSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC47EB21088491008AE9A4 /* MSGraphPOCSDK.h */,
+				E5DC47EC21088491008AE9A4 /* Info.plist */,
+			);
+			path = MSGraphPOCSDK;
+			sourceTree = "<group>";
+		};
+		E5DC47F521088491008AE9A4 /* MSGraphPOCSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC47F621088491008AE9A4 /* MSGraphPOCSDKTests.m */,
+				E5DC47F821088491008AE9A4 /* Info.plist */,
+			);
+			path = MSGraphPOCSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5DC47E521088491008AE9A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DC47F921088491008AE9A4 /* MSGraphPOCSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5DC47E721088491008AE9A4 /* MSGraphPOCSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5DC47FC21088491008AE9A4 /* Build configuration list for PBXNativeTarget "MSGraphPOCSDK" */;
+			buildPhases = (
+				E5DC47E321088491008AE9A4 /* Sources */,
+				E5DC47E421088491008AE9A4 /* Frameworks */,
+				E5DC47E521088491008AE9A4 /* Headers */,
+				E5DC47E621088491008AE9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSGraphPOCSDK;
+			productName = MSGraphPOCSDK;
+			productReference = E5DC47E821088491008AE9A4 /* MSGraphPOCSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5DC47F021088491008AE9A4 /* MSGraphPOCSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5DC47FF21088491008AE9A4 /* Build configuration list for PBXNativeTarget "MSGraphPOCSDKTests" */;
+			buildPhases = (
+				E5DC47ED21088491008AE9A4 /* Sources */,
+				E5DC47EE21088491008AE9A4 /* Frameworks */,
+				E5DC47EF21088491008AE9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5DC47F421088491008AE9A4 /* PBXTargetDependency */,
+			);
+			name = MSGraphPOCSDKTests;
+			productName = MSGraphPOCSDKTests;
+			productReference = E5DC47F121088491008AE9A4 /* MSGraphPOCSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5DC47DF21088491008AE9A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Vikas Dadheech";
+				TargetAttributes = {
+					E5DC47E721088491008AE9A4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E5DC47F021088491008AE9A4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E5DC47E221088491008AE9A4 /* Build configuration list for PBXProject "MSGraphPOCSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5DC47DE21088491008AE9A4;
+			productRefGroup = E5DC47E921088491008AE9A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5DC47E721088491008AE9A4 /* MSGraphPOCSDK */,
+				E5DC47F021088491008AE9A4 /* MSGraphPOCSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5DC47E621088491008AE9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DC47EF21088491008AE9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5DC47E321088491008AE9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DC47ED21088491008AE9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DC47F721088491008AE9A4 /* MSGraphPOCSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5DC47F421088491008AE9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5DC47E721088491008AE9A4 /* MSGraphPOCSDK */;
+			targetProxy = E5DC47F321088491008AE9A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5DC47FA21088491008AE9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DC47FB21088491008AE9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5DC47FD21088491008AE9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSGraphPOCSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = startrek.MSGraphPOCSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5DC47FE21088491008AE9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSGraphPOCSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = startrek.MSGraphPOCSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5DC480021088491008AE9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MSGraphPOCSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = startrek.MSGraphPOCSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5DC480121088491008AE9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MSGraphPOCSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = startrek.MSGraphPOCSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5DC47E221088491008AE9A4 /* Build configuration list for PBXProject "MSGraphPOCSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DC47FA21088491008AE9A4 /* Debug */,
+				E5DC47FB21088491008AE9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5DC47FC21088491008AE9A4 /* Build configuration list for PBXNativeTarget "MSGraphPOCSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DC47FD21088491008AE9A4 /* Debug */,
+				E5DC47FE21088491008AE9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5DC47FF21088491008AE9A4 /* Build configuration list for PBXNativeTarget "MSGraphPOCSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5DC480021088491008AE9A4 /* Debug */,
+				E5DC480121088491008AE9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5DC47DF21088491008AE9A4 /* Project object */;
+}
