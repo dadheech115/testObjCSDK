@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MSGraphServiceClient.h"
+#import "MSGraphHTTPClient.h"
+
+#define GraphBaseUrl @"https://graph.microsoft.com/v1.0"
 
 //! Project version number for MSGraphPOCSDK.
 FOUNDATION_EXPORT double MSGraphPOCSDKVersionNumber;

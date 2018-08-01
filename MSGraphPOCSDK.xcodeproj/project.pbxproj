@@ -10,6 +10,36 @@
 		E5DC47F221088491008AE9A4 /* MSGraphPOCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DC47E821088491008AE9A4 /* MSGraphPOCSDK.framework */; };
 		E5DC47F721088491008AE9A4 /* MSGraphPOCSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC47F621088491008AE9A4 /* MSGraphPOCSDKTests.m */; };
 		E5DC47F921088491008AE9A4 /* MSGraphPOCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC47EB21088491008AE9A4 /* MSGraphPOCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5DC4804210884EE008AE9A4 /* MSGraphServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4802210884EE008AE9A4 /* MSGraphServiceClient.h */; };
+		E5DC4805210884EE008AE9A4 /* MSGraphServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4803210884EE008AE9A4 /* MSGraphServiceClient.m */; };
+		E5DC480821088503008AE9A4 /* MSGraphBaseHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC480621088503008AE9A4 /* MSGraphBaseHTTPClient.h */; };
+		E5DC480921088503008AE9A4 /* MSGraphBaseHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC480721088503008AE9A4 /* MSGraphBaseHTTPClient.m */; };
+		E5DC480C21088512008AE9A4 /* MSGraphHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC480A21088512008AE9A4 /* MSGraphHTTPClient.h */; };
+		E5DC480D21088512008AE9A4 /* MSGraphHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC480B21088512008AE9A4 /* MSGraphHTTPClient.m */; };
+		E5DC4810210885C0008AE9A4 /* MSGraphRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC480E210885C0008AE9A4 /* MSGraphRequestBuilder.h */; };
+		E5DC4811210885C0008AE9A4 /* MSGraphRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC480F210885C0008AE9A4 /* MSGraphRequestBuilder.m */; };
+		E5DC4814210885CF008AE9A4 /* MSGraphResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4812210885CF008AE9A4 /* MSGraphResponseHandler.h */; };
+		E5DC4815210885CF008AE9A4 /* MSGraphResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4813210885CF008AE9A4 /* MSGraphResponseHandler.m */; };
+		E5DC48182108867C008AE9A4 /* MSGraphRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC48162108867C008AE9A4 /* MSGraphRequest.h */; };
+		E5DC48192108867C008AE9A4 /* MSGraphRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC48172108867C008AE9A4 /* MSGraphRequest.m */; };
+		E5DC481C2108868A008AE9A4 /* MSGraphResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC481A2108868A008AE9A4 /* MSGraphResponse.h */; };
+		E5DC481D2108868A008AE9A4 /* MSGraphResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC481B2108868A008AE9A4 /* MSGraphResponse.m */; };
+		E5DC48212109E3E2008AE9A4 /* MSGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC481F2109E3E2008AE9A4 /* MSGraphObject.h */; };
+		E5DC48222109E3E2008AE9A4 /* MSGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC48202109E3E2008AE9A4 /* MSGraphObject.m */; };
+		E5DC4825210B0ADA008AE9A4 /* Snippet.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4823210B0ADA008AE9A4 /* Snippet.h */; };
+		E5DC4826210B0ADA008AE9A4 /* Snippet.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4824210B0ADA008AE9A4 /* Snippet.m */; };
+		E5DC4829210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4827210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.h */; };
+		E5DC482A210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4828210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.m */; };
+		E5DC482D210ECD9B008AE9A4 /* MSGraphURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC482B210ECD9B008AE9A4 /* MSGraphURLSession.h */; };
+		E5DC482E210ECD9B008AE9A4 /* MSGraphURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC482C210ECD9B008AE9A4 /* MSGraphURLSession.m */; };
+		E5DC4831210EE7D0008AE9A4 /* MSGraphBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC482F210EE7D0008AE9A4 /* MSGraphBatchRequest.h */; };
+		E5DC4832210EE7D0008AE9A4 /* MSGraphBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4830210EE7D0008AE9A4 /* MSGraphBatchRequest.m */; };
+		E5DC4835210EF5EC008AE9A4 /* MSGraphBatchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4833210EF5EC008AE9A4 /* MSGraphBatchResponse.h */; };
+		E5DC4836210EF5EC008AE9A4 /* MSGraphBatchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4834210EF5EC008AE9A4 /* MSGraphBatchResponse.m */; };
+		E5DC4839210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC4837210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.h */; };
+		E5DC483A210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC4838210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.m */; };
+		E5DC731A210F441A0040BAB6 /* MSGraphBaseTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC7318210F441A0040BAB6 /* MSGraphBaseTask.h */; };
+		E5DC731B210F441A0040BAB6 /* MSGraphBaseTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC7319210F441A0040BAB6 /* MSGraphBaseTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +59,37 @@
 		E5DC47F121088491008AE9A4 /* MSGraphPOCSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSGraphPOCSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DC47F621088491008AE9A4 /* MSGraphPOCSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphPOCSDKTests.m; sourceTree = "<group>"; };
 		E5DC47F821088491008AE9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DC4802210884EE008AE9A4 /* MSGraphServiceClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphServiceClient.h; sourceTree = "<group>"; };
+		E5DC4803210884EE008AE9A4 /* MSGraphServiceClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphServiceClient.m; sourceTree = "<group>"; };
+		E5DC480621088503008AE9A4 /* MSGraphBaseHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphBaseHTTPClient.h; sourceTree = "<group>"; };
+		E5DC480721088503008AE9A4 /* MSGraphBaseHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphBaseHTTPClient.m; sourceTree = "<group>"; };
+		E5DC480A21088512008AE9A4 /* MSGraphHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphHTTPClient.h; sourceTree = "<group>"; };
+		E5DC480B21088512008AE9A4 /* MSGraphHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphHTTPClient.m; sourceTree = "<group>"; };
+		E5DC480E210885C0008AE9A4 /* MSGraphRequestBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphRequestBuilder.h; sourceTree = "<group>"; };
+		E5DC480F210885C0008AE9A4 /* MSGraphRequestBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphRequestBuilder.m; sourceTree = "<group>"; };
+		E5DC4812210885CF008AE9A4 /* MSGraphResponseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphResponseHandler.h; sourceTree = "<group>"; };
+		E5DC4813210885CF008AE9A4 /* MSGraphResponseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphResponseHandler.m; sourceTree = "<group>"; };
+		E5DC48162108867C008AE9A4 /* MSGraphRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphRequest.h; sourceTree = "<group>"; };
+		E5DC48172108867C008AE9A4 /* MSGraphRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphRequest.m; sourceTree = "<group>"; };
+		E5DC481A2108868A008AE9A4 /* MSGraphResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphResponse.h; sourceTree = "<group>"; };
+		E5DC481B2108868A008AE9A4 /* MSGraphResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphResponse.m; sourceTree = "<group>"; };
+		E5DC481E2108879C008AE9A4 /* MSAuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAuthenticationProvider.h; sourceTree = "<group>"; };
+		E5DC481F2109E3E2008AE9A4 /* MSGraphObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphObject.h; sourceTree = "<group>"; };
+		E5DC48202109E3E2008AE9A4 /* MSGraphObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphObject.m; sourceTree = "<group>"; };
+		E5DC4823210B0ADA008AE9A4 /* Snippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snippet.h; sourceTree = "<group>"; };
+		E5DC4824210B0ADA008AE9A4 /* Snippet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snippet.m; sourceTree = "<group>"; };
+		E5DC4827210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXOAuth2AuthenticationProvider.h; sourceTree = "<group>"; };
+		E5DC4828210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2AuthenticationProvider.m; sourceTree = "<group>"; };
+		E5DC482B210ECD9B008AE9A4 /* MSGraphURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphURLSession.h; sourceTree = "<group>"; };
+		E5DC482C210ECD9B008AE9A4 /* MSGraphURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphURLSession.m; sourceTree = "<group>"; };
+		E5DC482F210EE7D0008AE9A4 /* MSGraphBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphBatchRequest.h; sourceTree = "<group>"; };
+		E5DC4830210EE7D0008AE9A4 /* MSGraphBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphBatchRequest.m; sourceTree = "<group>"; };
+		E5DC4833210EF5EC008AE9A4 /* MSGraphBatchResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphBatchResponse.h; sourceTree = "<group>"; };
+		E5DC4834210EF5EC008AE9A4 /* MSGraphBatchResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphBatchResponse.m; sourceTree = "<group>"; };
+		E5DC4837210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphChunkedUploadTask.h; sourceTree = "<group>"; };
+		E5DC4838210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphChunkedUploadTask.m; sourceTree = "<group>"; };
+		E5DC7318210F441A0040BAB6 /* MSGraphBaseTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSGraphBaseTask.h; sourceTree = "<group>"; };
+		E5DC7319210F441A0040BAB6 /* MSGraphBaseTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSGraphBaseTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +134,37 @@
 			children = (
 				E5DC47EB21088491008AE9A4 /* MSGraphPOCSDK.h */,
 				E5DC47EC21088491008AE9A4 /* Info.plist */,
+				E5DC4802210884EE008AE9A4 /* MSGraphServiceClient.h */,
+				E5DC4803210884EE008AE9A4 /* MSGraphServiceClient.m */,
+				E5DC480621088503008AE9A4 /* MSGraphBaseHTTPClient.h */,
+				E5DC480721088503008AE9A4 /* MSGraphBaseHTTPClient.m */,
+				E5DC480A21088512008AE9A4 /* MSGraphHTTPClient.h */,
+				E5DC480B21088512008AE9A4 /* MSGraphHTTPClient.m */,
+				E5DC480E210885C0008AE9A4 /* MSGraphRequestBuilder.h */,
+				E5DC480F210885C0008AE9A4 /* MSGraphRequestBuilder.m */,
+				E5DC4812210885CF008AE9A4 /* MSGraphResponseHandler.h */,
+				E5DC4813210885CF008AE9A4 /* MSGraphResponseHandler.m */,
+				E5DC48162108867C008AE9A4 /* MSGraphRequest.h */,
+				E5DC48172108867C008AE9A4 /* MSGraphRequest.m */,
+				E5DC481A2108868A008AE9A4 /* MSGraphResponse.h */,
+				E5DC481B2108868A008AE9A4 /* MSGraphResponse.m */,
+				E5DC481E2108879C008AE9A4 /* MSAuthenticationProvider.h */,
+				E5DC481F2109E3E2008AE9A4 /* MSGraphObject.h */,
+				E5DC48202109E3E2008AE9A4 /* MSGraphObject.m */,
+				E5DC4823210B0ADA008AE9A4 /* Snippet.h */,
+				E5DC4824210B0ADA008AE9A4 /* Snippet.m */,
+				E5DC4827210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.h */,
+				E5DC4828210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.m */,
+				E5DC482B210ECD9B008AE9A4 /* MSGraphURLSession.h */,
+				E5DC482C210ECD9B008AE9A4 /* MSGraphURLSession.m */,
+				E5DC482F210EE7D0008AE9A4 /* MSGraphBatchRequest.h */,
+				E5DC4830210EE7D0008AE9A4 /* MSGraphBatchRequest.m */,
+				E5DC4833210EF5EC008AE9A4 /* MSGraphBatchResponse.h */,
+				E5DC4834210EF5EC008AE9A4 /* MSGraphBatchResponse.m */,
+				E5DC4837210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.h */,
+				E5DC4838210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.m */,
+				E5DC7318210F441A0040BAB6 /* MSGraphBaseTask.h */,
+				E5DC7319210F441A0040BAB6 /* MSGraphBaseTask.m */,
 			);
 			path = MSGraphPOCSDK;
 			sourceTree = "<group>";
@@ -93,7 +185,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DC481C2108868A008AE9A4 /* MSGraphResponse.h in Headers */,
+				E5DC480821088503008AE9A4 /* MSGraphBaseHTTPClient.h in Headers */,
+				E5DC4804210884EE008AE9A4 /* MSGraphServiceClient.h in Headers */,
+				E5DC4810210885C0008AE9A4 /* MSGraphRequestBuilder.h in Headers */,
+				E5DC4825210B0ADA008AE9A4 /* Snippet.h in Headers */,
+				E5DC4829210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.h in Headers */,
+				E5DC4814210885CF008AE9A4 /* MSGraphResponseHandler.h in Headers */,
+				E5DC731A210F441A0040BAB6 /* MSGraphBaseTask.h in Headers */,
+				E5DC480C21088512008AE9A4 /* MSGraphHTTPClient.h in Headers */,
+				E5DC48182108867C008AE9A4 /* MSGraphRequest.h in Headers */,
+				E5DC48212109E3E2008AE9A4 /* MSGraphObject.h in Headers */,
+				E5DC4839210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.h in Headers */,
+				E5DC4831210EE7D0008AE9A4 /* MSGraphBatchRequest.h in Headers */,
+				E5DC482D210ECD9B008AE9A4 /* MSGraphURLSession.h in Headers */,
 				E5DC47F921088491008AE9A4 /* MSGraphPOCSDK.h in Headers */,
+				E5DC4835210EF5EC008AE9A4 /* MSGraphBatchResponse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DC731B210F441A0040BAB6 /* MSGraphBaseTask.m in Sources */,
+				E5DC4836210EF5EC008AE9A4 /* MSGraphBatchResponse.m in Sources */,
+				E5DC482A210B0B23008AE9A4 /* NXOAuth2AuthenticationProvider.m in Sources */,
+				E5DC48192108867C008AE9A4 /* MSGraphRequest.m in Sources */,
+				E5DC481D2108868A008AE9A4 /* MSGraphResponse.m in Sources */,
+				E5DC4811210885C0008AE9A4 /* MSGraphRequestBuilder.m in Sources */,
+				E5DC4832210EE7D0008AE9A4 /* MSGraphBatchRequest.m in Sources */,
+				E5DC48222109E3E2008AE9A4 /* MSGraphObject.m in Sources */,
+				E5DC4815210885CF008AE9A4 /* MSGraphResponseHandler.m in Sources */,
+				E5DC480921088503008AE9A4 /* MSGraphBaseHTTPClient.m in Sources */,
+				E5DC483A210F1DB8008AE9A4 /* MSGraphChunkedUploadTask.m in Sources */,
+				E5DC482E210ECD9B008AE9A4 /* MSGraphURLSession.m in Sources */,
+				E5DC480D21088512008AE9A4 /* MSGraphHTTPClient.m in Sources */,
+				E5DC4805210884EE008AE9A4 /* MSGraphServiceClient.m in Sources */,
+				E5DC4826210B0ADA008AE9A4 /* Snippet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,13 @@
 
 @implementation MSGraphBaseHTTPClient
 
+-(instancetype)initWithAuthenticationProvider:(id<MSAuthenticationProvider>)authenticationProvider baseUrl:(NSString *)baseUrl{
+    self = [super init];
+    if(self){
+        _authenticationProvider = authenticationProvider;
+        _baseUrl = baseUrl;
+    }
+    return self;
+}
+
 @end

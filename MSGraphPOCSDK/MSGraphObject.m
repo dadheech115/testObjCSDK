@@ -8,6 +8,24 @@
 
 #import "MSGraphObject.h"
 
+@interface MSGraphObject()
+
+@property NSDictionary *propertyDictionary;
+
+@end
+
 @implementation MSGraphObject
+
+-(instancetype)initWithDictionary:(NSDictionary *)dictionary{
+    self = [super init];
+    if(self){
+        self.propertyDictionary = dictionary;
+    }
+    return self;
+}
+
+-(NSDictionary *)dictionaryFromItem{
+    return self.propertyDictionary;
+}
 
 @end

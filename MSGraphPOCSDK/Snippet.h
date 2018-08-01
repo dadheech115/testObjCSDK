@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MSGraphPOCSDK.h"
 
 @interface Snippet : NSObject
+
+
+
 
 @end

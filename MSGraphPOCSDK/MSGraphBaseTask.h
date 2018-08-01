@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MSGraphServiceClient.h"
 
+//Base class for all the Graph specific tasks that will be developed
 @interface MSGraphBaseTask : NSObject
+
+@property (readonly) MSGraphServiceClient *serviceClient;
+
+-(instancetype)initWithServiceClient:(MSGraphServiceClient *)serviceClient;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  MSGraphBatchTask.m
+//  MSGraphBatchRequest.m
 //  MSGraphPOCSDK
 //
 //  Created by Vikas Dadheech on 30/07/18.
@@ -52,7 +52,9 @@
         if(nativeRequest.allHTTPHeaderFields){
             [requestDictionary setObject:nativeRequest.allHTTPHeaderFields forKey:BatchRequestHeaders];
         }
+        [batchedRequests addObject:requestDictionary];
     }
+    [batchRequestBody setValue:batchedRequests forKey:@"requests"];
     return batchRequestBody;
 }
 
